@@ -1,0 +1,59 @@
+*, ::after, ::before {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+main {
+    overflow-x: hidden;
+}
+
+.btn {
+    padding: 10px 16px;
+}
+
+h2 {
+    &.title {
+        color: var(--Gray-900, #101828);
+
+        /* Display md/Semibold */
+        font-family: Inter;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 44px; /* 122.222% */
+        letter-spacing: -0.72px;
+    }
+}
+
+p {
+    &.description {
+        color: var(--Gray-600, #475467);
+
+        /* Text xl/Regular */
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; /* 150% */
+    }
+}
+
+.overline {
+    color: var(--Primary-700, #6941C6);
+
+    /* Text md/Semibold */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+}
+
