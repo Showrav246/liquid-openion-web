@@ -11497,6 +11497,9 @@ p.description {
 .slider .slider-content .btn {
   padding: 16px 32px;
 }
+.slider .slide .carousel-inner {
+  overflow: initial;
+}
 
 /* About */
 .about {

@@ -74,6 +74,12 @@
             padding: 16px 32px;
         }
     }
+
+    .slide {
+        .carousel-inner {
+            overflow: initial;
+        }
+    }
 }
 
 /* About */
