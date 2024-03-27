@@ -18,6 +18,10 @@
             font-weight: 600;
             line-height: 24px; /* 150% */
             padding: 12px 20px;
+
+            &.active {
+                color: var(--Primary-600, #7F56D9);
+            }
         }
     }
 }
