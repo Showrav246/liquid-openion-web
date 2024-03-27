@@ -11390,10 +11390,29 @@ body {
 
 main {
   overflow-x: hidden;
+  margin-top: 86px;
+  min-height: 65dvh;
 }
 
 .btn {
   padding: 10px 16px;
+}
+
+h1.title, .title.h1 {
+  color: var(--Gray-900, #101828);
+  /* Display xl/Medium */
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 72px; /* 120% */
+  letter-spacing: -1.2px;
+}
+@media screen and (max-width: 968px) {
+  h1.title, .title.h1 {
+    font-size: 2.5rem;
+    line-height: 120%;
+  }
 }
 
 h2.title, .title.h2 {
@@ -11407,14 +11426,25 @@ h2.title, .title.h2 {
   letter-spacing: -0.72px;
 }
 
+h3.subtitle, .subtitle.h3 {
+  color: var(--Gray-600, #475467);
+  /* Display md/Semibold */
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 122.222% */
+  letter-spacing: -0.72px;
+}
+
 p.description {
   color: var(--Gray-600, #475467);
   /* Text xl/Regular */
   font-family: Inter;
-  font-size: 20px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 30px; /* 150% */
+  line-height: 26px; /* 150% */
 }
 
 .overline {
@@ -11425,6 +11455,22 @@ p.description {
   font-style: normal;
   font-weight: 600;
   line-height: 24px; /* 150% */
+}
+
+.accordion-button:not(.collapsed) {
+  background: transparent;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-button {
+  font-size: 18px;
+}
+
+.breadcrumb .breadcrumb-item {
+  font-size: 16px;
 }
 
 /* Header */
@@ -11450,7 +11496,6 @@ p.description {
 /* Slider */
 .slider {
   position: relative;
-  margin-top: 150px;
 }
 .slider .geometric-shapes {
   width: 100%;
@@ -11459,14 +11504,14 @@ p.description {
 }
 .slider .slider-content {
   position: relative;
-  z-index: 1;
+  z-index: 100;
 }
 .slider .slider-content .title {
   color: var(--Gray-900, #101828);
   text-align: center;
   /* Display xl/Medium */
   font-family: Inter;
-  font-size: 60px;
+  font-size: 64px;
   font-style: normal;
   font-weight: 500;
   line-height: 72px; /* 120% */
@@ -11616,4 +11661,11 @@ p.description {
   font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 150% */
+}
+
+/* Page Banner */
+.page-banner {
+  min-height: 250px;
+  background: rgb(230, 233, 255);
+  background: linear-gradient(90deg, rgb(230, 233, 255) 0%, rgb(241, 242, 248) 36%, rgb(213, 193, 255) 100%);
 }/*# sourceMappingURL=main.min.css.map */

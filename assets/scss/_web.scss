@@ -26,7 +26,6 @@
 
 .slider {
     position: relative;
-    margin-top: 150px;
 
     .geometric-shapes {
         width: 100%;
@@ -36,14 +35,14 @@
 
     .slider-content {
         position: relative;
-        z-index: 1;
+        z-index: 100;
         .title {
             color: var(--Gray-900, #101828);
             text-align: center;
 
             /* Display xl/Medium */
             font-family: Inter;
-            font-size: 60px;
+            font-size: 64px;
             font-style: normal;
             font-weight: 500;
             line-height: 72px; /* 120% */

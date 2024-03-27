@@ -1,0 +1,11 @@
+{
+  "name": "liquid-openion-web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Showrav246/liquid-openion-web.git",
+  "author": "showrav246 <showrav246@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
